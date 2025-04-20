@@ -1,0 +1,28 @@
+Here's a simple Node.js program that outputs a short poem and a random number:
+
+// poem-generator.js
+
+// A short poem
+const poem = `
+Rays of sun and skies so blue,  
+Dreams awaken, fresh and new.  
+Leaves that dance in morning light,  
+Hope and joy take gentle flight.  
+`;
+
+// Generate a random number between 1 and 100
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+
+// Output the poem and the random number
+console.log(poem);
+console.log(`Here's your random number: ${randomNumber}`);
+
+To run it:
+
+    Save the code as poem-generator.js.
+
+    Run it in your terminal with:
+
+node poem-generator.js
+
+Let me know if you want it to generate a new poem every time or include themes!
